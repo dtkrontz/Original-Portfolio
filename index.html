@@ -174,35 +174,6 @@
             </script>
 
     <script type="text/javaScript">
-    // Trying to get the navbar to hide once the window is scrolled down
-
-        // let lastScrollPosition = 0;
-        // document.addEventListener('scroll', function (e) {
-        //     if (window.scrollY > lastScrollPosition) {
-        //         state.showNav = false;
-        //     } else {
-        //         state.showNav = true;
-        //     }
-        //     lastScrollPosition = window.scrolly;
-        // }, {passive: true});
-
-    // window.onscroll = function() {myFunction()};
-
-    // function myFunction() {
-    //     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    //     document.getElementById("hide").className = "hidden";
-    // } else {
-    //     document.getElementById("hide").className = "";
-    // }
-    // }
-
-    // hide the .show class when the window is extended past a point
-    
-        // let element = document.getElementsByClassName('.show');
-        // if (window.width > 972) {
-        //     element.classList.remove('show')
-        // }      
-
         $(window).on("scroll", function () {
                 if ($(window).scrollTop() > 685) {
                     $('nav').addClass('grey');
