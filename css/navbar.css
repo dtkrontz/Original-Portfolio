@@ -1,6 +1,5 @@
 nav {
     position: fixed;
-    height: 5vh;
     padding-top: 0;
     padding-right: 10px;
     padding-bottom: 0;
@@ -11,20 +10,23 @@ nav {
     color: white;
 }
 
-.show {
-    background: black;
-    opacity: 75%;
-    width: 8rem;
+/* .navbar-toggler-icon {
+  /  color: white !important;
+} */
+
+.navbar-toggler-icon {
+    background-image: none !important;
+    color: white;
 }
 
-.colapsing {
-    background: black;
-    opacity: 75%;
-    width: 8rem;
-}
-
-.bg-light {
+.bg-dark {
     background-color: transparent !important;
+}
+
+nav.grey {
+    background-color:  rgb(15, 15, 15) !important;
+    animation-delay: 3s;
+    z-index: 6;
 }
 
 .container-fluid {
